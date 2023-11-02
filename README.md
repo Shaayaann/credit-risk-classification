@@ -32,4 +32,4 @@ Model 2 has a higher recall for the high-risk class, indicating better performan
 The choice of the preferred model depends on the problem context. If correctly identifying high-risk loans is crucial, Model 2 may be preferred due to its higher recall.
 
 ## Recommendation:
-Considering the emphasis on identifying high-risk loans, Model 2 is recommended due to its superior recall in predicting the "High-Risk Loan" class. However, the final decision should consider the specific business objectives and the consequences of false positives and false negatives in the context of the financial domain.
+Considering the emphasis on identifying high-risk loans, Model 2 is recommended due to its superior recall in predicting the "High-Risk Loan" class. However, the final decision should consider the specific business objectives and the consequences of false positives and false negatives.
