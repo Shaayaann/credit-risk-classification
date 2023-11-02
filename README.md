@@ -19,14 +19,17 @@ Accuracy: 0.99
 Precision (High-Risk Loan): 0.87
 Recall (High-Risk Loan): 0.89
 F1-Score (High-Risk Loan): 0.88
+
 Machine Learning Model 2 (Oversampling):
 Accuracy: 1.00
 Precision (High-Risk Loan): 0.87
 Recall (High-Risk Loan): 1.00
 F1-Score (High-Risk Loan): 0.93
+
 ## Summary:
 Both models show high accuracy, with Model 2 demonstrating perfect accuracy.
 Model 2 has a higher recall for the high-risk class, indicating better performance in capturing true high-risk instances.
 The choice of the preferred model depends on the problem context. If correctly identifying high-risk loans is crucial, Model 2 may be preferred due to its higher recall.
+
 ## Recommendation:
 Considering the emphasis on identifying high-risk loans, Model 2 is recommended due to its superior recall in predicting the "High-Risk Loan" class. However, the final decision should consider the specific business objectives and the consequences of false positives and false negatives in the context of the financial domain.
